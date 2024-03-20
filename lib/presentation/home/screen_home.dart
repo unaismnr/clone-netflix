@@ -56,7 +56,7 @@ class ScreenHome extends StatelessWidget {
                           duration: const Duration(microseconds: 2000),
                           width: double.infinity,
                           height: 80,
-                          color: Colors.black.withOpacity(0.1),
+                          color: Colors.black.withOpacity(0.3),
                           child: Column(
                             children: [
                               Row(

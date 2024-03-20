@@ -12,7 +12,7 @@ class MainCards extends StatelessWidget {
       padding: const EdgeInsets.all(4.0),
       child: Container(
         width: 150,
-        height: 250,
+        height: 280,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           image: const DecorationImage(
