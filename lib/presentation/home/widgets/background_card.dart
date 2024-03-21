@@ -28,13 +28,19 @@ class BackgroundCardWidget extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const CUstomButtonWidget(
+                const CustomButtonWidget(
                   icon: Icons.add,
                   title: "List",
+                  iconsize: 25,
+                  fontsize: 18,
                 ),
                 _playbutton(),
-                const CUstomButtonWidget(
-                    icon: Icons.info_outline, title: "Info")
+                const CustomButtonWidget(
+                  icon: Icons.info_outline,
+                  title: "Info",
+                  iconsize: 25,
+                  fontsize: 18,
+                )
               ],
             ),
           ),

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/core/colors.dart';
 
-class CUstomButtonWidget extends StatelessWidget {
-  const CUstomButtonWidget(
+class CustomButtonWidget extends StatelessWidget {
+  const CustomButtonWidget(
       {super.key,
       required this.icon,
-      this.iconsize = 25,
-      this.fontsize = 18,
+      this.iconsize,
+      this.fontsize,
       required this.title});
   final IconData icon;
   final String title;
-  final double fontsize;
-  final double iconsize;
+  final double? fontsize;
+  final double? iconsize;
 
   @override
   Widget build(BuildContext context) {
