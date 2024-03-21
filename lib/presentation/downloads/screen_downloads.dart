@@ -34,15 +34,15 @@ class _SmartDownloads extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       children: [
         kwidth,
-        const Icon(
+        Icon(
           Icons.settings,
           color: kwhiteColor,
         ),
         kwidth,
-        const Text("Smart Downloads")
+        Text("Smart Downloads")
       ],
     );
   }
@@ -51,9 +51,9 @@ class _SmartDownloads extends StatelessWidget {
 class Section2 extends StatelessWidget {
   Section2({super.key});
   final List imageList = [
-    "https://www.themoviedb.org/t/p/w220_and_h330_face/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
-    "https://www.themoviedb.org/t/p/w220_and_h330_face/wGE4ImqYjJZQi3xFu4I2OLm8m0w.jpg",
-    "https://www.themoviedb.org/t/p/w220_and_h330_face/vtfsNxAsDHElFvYHUc9Khwqg17Y.jpg",
+    kMainImage,
+    kMainImage,
+    kMainImage,
   ];
   @override
   Widget build(BuildContext context) {
